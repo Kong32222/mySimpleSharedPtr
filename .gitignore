@@ -39,3 +39,16 @@
 
 # debug information files
 *.dwo
+ 
+# build
+/build/
+/bin/
+
+# cmake generated 提醒：下面这些是 CMake 自动生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# vscode
+.vscode/
